@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/layout/Header';
-import { Search, Flame, Scan, ArrowRight } from 'lucide-react';
+import { Scan, Search, Flame, Scan, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -148,3 +148,4 @@ export default function HomePage() {
         </div>
     );
 }
+
