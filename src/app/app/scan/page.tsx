@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { BrowserMultiFormatReader, NotFoundException } from '@zxing/library';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Image as ImageIcon, Keyboard, Zap } from 'lucide-react';
+import { Image as ImageIcon, Keyboard, Zap, Scan } from 'lucide-react';
 
 export default function ScanPage() {
     const videoRef = useRef<HTMLVideoElement>(null);
@@ -194,3 +194,4 @@ export default function ScanPage() {
         </div>
     );
 }
+
